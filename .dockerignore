@@ -1,0 +1,134 @@
+# Git 관련
+.git
+.gitignore
+.gitattributes
+.gitmodules
+
+# IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# CI/CD 관련
+#.gitlab-ci.yml
+.github/
+.circleci/
+.travis.yml
+Jenkinsfile
+
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+##################################
+# ⚠️ 주의: 빌드 결과물
+# React 등에서 build/ 폴더가 최종 결과물인 경우 주석 처리!
+# build/
+# dist/
+##################################
+
+# 가상환경
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+# 빌드 및 배포
+*.egg-info/
+#dist/
+#build/
+*.egg
+.eggs/
+
+# 테스트 및 커버리지
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# 로그 및 데이터베이스
+*.log
+logs/
+*.sqlite
+*.sqlite3
+#*.db
+tmp/
+temp/
+.cache/
+
+#백업파일
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# 환경 변수 및 보안
+#.env.*
+!.env.example
+!.env.template
+#*.pem
+#*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+
+##################################
+# 문서 (선택적 - 필요하면 주석 해제)
+##################################
+# README.md
+# LICENSE
+# CHANGELOG.md
+# docs/
+*.md
+!package*.json
+
+
+# Node.js 관련
+# 의존성
+node_modules/
+bower_components/
+
+# 로그
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# 빌드 캐시
+.npm/
+.yarn/
+.pnp.*
+.eslintcache
+.stylelintcache
+
+##################################
+# ⚠️ 주의: 빌드 결과물
+# React 등에서 build/ 폴더가 최종 결과물인 경우 주석 처리!
+# build/
+# dist/
+# Node.js 
+#################################
